@@ -17,7 +17,11 @@ const PlumberResponse = () => {
                     professionalism of our work. Every residential plumbing
                     technician for the uniformed and badged, and will arrive
                     at your home.</p>
-                <Link href='/contactus' data-aos="fade-up-left" data-aos-duration="2000"  className='decoration-none text-white text-[14px] font-medium text-white bg-[#3787c3] border-[1px] border-[#3787c3]  hover:text-[#3787c3] hover:bg-white duration-[0.3s] ease-in-out py-[10px] rounded-[13px] w-[120px] text-center  flex items-center gap-[5px] justify-center' > Contact Us <FaArrowRight /> </Link>
+                    <div className="hover-fill-from-bottom leading-[30px] py-[11px] flex justify-center items-center xl:w-[30%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+            <Link href="/contactus" className="flex items-center leading-[30px] text-[18px] font-[600]">
+              Contact Us 
+            </Link>
+          </div>
 
             </div>
         </div>

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
+import "../../app/globals.css";
 
 const Counter3 = ({ startCount , targetCount, icon ,contant }) => {
     const [count, setCount] = useState(startCount);
@@ -29,7 +30,7 @@ const Counter3 = ({ startCount , targetCount, icon ,contant }) => {
             <div className="icon">
                 {icon}
             </div>
-           <div className="">
+           <div className="counter-text">
            <p className='text-[#3787c3] font-bold text-[50px] pt-[5px]'>{count}+</p> {/* Display the count */}
            <h2 className='font-normal text-[#8b8a8a] text-[16px] '>{contant}</h2>
            </div>

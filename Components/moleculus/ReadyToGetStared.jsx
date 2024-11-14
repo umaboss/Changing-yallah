@@ -19,7 +19,11 @@ const ReadyToGetStared = () => {
         {/* <button className="px-[50px] py-[15px] cursor-pointer text-white bg-blue-900 rounded-lg mt-[30px]">
           Contact Now
         </button> */}
-        <Link href='/contactus'  className="px-[50px] py-[15px] cursor-pointer bg-[#3787c3] capitalize text-[#fff] hover:bg-[white] hover:text-[#3787c3] border-[1px] border-[#3787c3] transition 0.5s ease-in rounded-[5px] mt-[30px]">Contact Now</Link>
+        <div className="hover-fill-from-bottom mt-[20px] leading-[30px] py-[11px] flex justify-center items-center xl:w-[35%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+            <Link href="/contactus" className="flex items-center leading-[30px] text-[18px] font-[600]">
+              Contact Us 
+            </Link>
+          </div>
       </div>
     </Container>
   );

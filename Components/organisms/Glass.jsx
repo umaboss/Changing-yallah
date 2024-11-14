@@ -15,10 +15,10 @@ function Glass() {
             <Headermain />
             <Glassbanner />
             <Glassban1 />
-            <Glassban2 />
+            {/* <Glassban2 /> */}
             <GlassHeading />
             <Glassimages />
-            <div className='p-[50px]'>
+            <div className='pt-[50px] pl-[50px]'>
                 <Heading level={'2'}>Contact Us</Heading>
             </div>
             <div className='my-[70px]'>

@@ -3,6 +3,7 @@ import Heading from '../atoms/Heading';
 import Input from '../atoms/Input';
 import Label from '../atoms/Label';
 import Paragraph from '../atoms/Paragraph';
+import Link from 'next/link';
 
 function PlumberContact() {
   return (
@@ -65,9 +66,11 @@ function PlumberContact() {
                 <textarea className='w-full h-[100px] outline-none border border-[#cacaca] text-[15px] text-[#302e2e] p-[15px]' placeholder="Message" />
               </div>
 
-              <div className="pt-5">
-                <button data-aos='fade-up' data-aos-duration="2200" type="submit" className="bg-blue-500 rounded-[10px] duration-[0.3s] ease-in-out  h-[40px] border-[1px] border-blue-500 hover:text-blue-500 hover:bg-white  cursor-pointer font-medium text-[16px] text-center w-[100%] py-2 px-6 text-white">Send Message</button>
-              </div>
+              <div className="hover-fill-from-bottom leading-[30px] py-[11px] flex justify-center items-center xl:w-[40%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+            <Link href="#" className="flex items-center leading-[30px] text-[18px] font-[600]">
+              Send Massage
+            </Link>
+          </div>
             </form>
           </div>
 

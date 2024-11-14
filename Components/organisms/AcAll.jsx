@@ -8,10 +8,11 @@ function AcAll() {
     <div>
 
       <div>
-        <Acbanner content={'AC Services'}
-          paragraph={'It provides ac repair services in the range of split air conditioner  window air conditioner central air conditioners andother power cooling systems'}
-          anchortag ={'Contact us'}
-        />
+      <Acbanner 
+    content={'AC Services'}
+    paragraph={`It provides ac repair services in the range of split air conditioner, <br /> window air conditioner,  central air conditioners, and other <br /> power cooling systems.`}
+/>
+
       </div>
 
     </div>

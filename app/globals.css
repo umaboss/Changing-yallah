@@ -30,13 +30,153 @@
     }
 }
 
-.scrollbar {
-    overflow-x: scroll;
-}
 
-.no-scrollbar {
-    overflow-y: scroll;
-}
+
+
+
+
+.header {
+    color: black;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navItem {
+    margin: 0;
+    position: relative; /* Necessary for dropdown positioning */
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .navLink:hover {
+    background-color: #0F3462;
+  }
+  /* .navLink::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  } */
+  
+  .navLink:hover::after {
+    transform: translateX(-50%) scaleX(1);
+  }
+  
+
+  .navLink:focus {
+    outline: none;
+    background-color: #0F3462;
+    color: white;
+  }
+  
+  .navLink:active {
+    transform: scale(0.98); /* Slight scale on click */
+  }
+  
+  /* Dropdown Menu Styles */
+  .servicesMenu {
+    position: relative;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0077b6;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    min-width: 250px;
+    z-index: 1;
+  }
+  
+  .dropdownLink {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdownLink:hover {
+    background-color: #0F3462;
+  }
+  
+  /* Show dropdown on hover */
+  .servicesMenu:hover .dropdown {
+    display: block;
+  }
+
+.hover-fill-from-bottom {
+    position: relative;
+    overflow: hidden;
+    color: #164B8D;
+    border: 1px solid #164B8D;
+    border-radius: 30px;
+    transition: color 0.5s ease;
+  }
+  
+  .hover-fill-from-bottom:hover {
+    color: white;
+  }
+  
+  .hover-fill-from-bottom::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #164B8D;
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+    z-index: 0;
+  }
+  
+  .hover-fill-from-bottom:hover::before {
+    transform: translateY(0);
+  }
+  
+  .hover-fill-from-bottom a {
+    position: relative;
+    z-index: 1;
+    color: inherit;
+  }
+  
+
 
 .plumber-banner {
     background-image: url("../public/assits/images/plumber-banner.png");
@@ -79,13 +219,69 @@ li:hover .dropdown2 {
     opacity: 50;
     background-color: black;
 }
-
 .baner-bg {
-    background-image: url("../public/assits/images/banner2");
+    background-image: url("../public/assits/images/banner1.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;  /* Important for positioning the overlay */
+    box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.5);  /* Adds a soft shadow inside the container */
 }
+
+/* Add a subtle dark overlay on top of the image */
+/* .baner-bg with overlay */
+.baner-bg {
+    position: relative;
+    overflow: hidden; /* Ensure the overlay doesn't spill outside */
+  }
+  
+  .baner-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Darker overlay */
+    z-index: 1; /* Ensures overlay stays behind content */
+    opacity: 0.7; /* Initial opacity */
+    transition: opacity 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .baner-bg:hover::before {
+    opacity: 0.5; /* Slightly more transparent on hover */
+  }
+  
+  /* Optional: Styling for the content within the banner */
+  .baner-bg .content {
+    position: relative;
+    z-index: 2; /* Ensure the content is always on top */
+  }
+
+.hover-effect {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  .hover-effect:hover .icon-container {
+    background-color: white;
+  }
+  .hover-effect:hover {
+    transform: translateY(-10px); /* Slightly lifts the card */
+    background-color: #164B8D; 
+}
+.hover-effect:hover .text-change span{
+    color: white;
+}  
+  .icon-container {
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  .hover-effect:hover .icon-container {
+    background-color: white;
+    color: #164B8D;
+}
+  
+
 
 .maintances-bg {
     background-image: url("../public/assits/images/couple-turning");
@@ -131,6 +327,10 @@ li:hover .dropdown2 {
 }
 
 
+
+.session-container:hover .counter-text{
+    color: white;
+}
 /* yaha sa */
 
 .marval:hover .icon1 {
@@ -170,3 +370,26 @@ li:hover .dropdown2 {
 
 
    
+/* Custom hover styles */
+.footer-link {
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.footer-link:hover {
+    color: #164B8D; /* Color change on hover */
+    transform: translateX(5px); /* Slight shift effect */
+}
+
+.social-link {
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.1); /* Social icons scale on hover */
+}
+
+/* Optional: For smooth color change, you can add this */
+.social-link:hover path {
+    fill: #164B8D; /* Change color for SVG icons on hover */
+}

@@ -6,7 +6,7 @@ const Logo = ({ src, alt, href }) => {
     <div>
       {LogoData.map((item) => {
         return (
-          <a className='w-[100px] block' key={item.href} href={item.href}>
+          <a className='w-[100px]  block' key={item.href} href={item.href}>
             <img src={item.src} alt={item.alt} />
           </a>
         )
@@ -23,7 +23,7 @@ Logo.propTypes = {
 
 const LogoData = [
   {
-    href: '#',
+    href: '/',
     src: '/assits/images/logo1.png',
     alt: 'logo'
   }

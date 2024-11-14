@@ -18,10 +18,10 @@ function Kitchen() {
             <Headermain />
             <Kitchenbanner />
             <Kitchenban1 />
-            <Kitchenban2 />
+            {/* <Kitchenban2 /> */}
             <KitchenHeading />
             <Kitchenimages />
-            <div className='p-[50px]'>
+            <div className='pt-[50px] pl-[50px]'>
                 <Heading level={'2'}>Contact Us</Heading>
             </div>
             <div className='my-[70px]'>

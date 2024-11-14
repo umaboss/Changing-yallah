@@ -6,8 +6,8 @@ import Cellingbanner from '../moleculus/Cellingbanner'
 
 function Cellingall() {
   return (
-    <div>
-            <div>
+    <div className=''>
+            <div className=''>
                 <Cellingbanner content={'Gypsum Ceiling'}
                  paragraph={'It provides ac repair services in the range of split air conditioner  window air conditioner central air conditioners andother power cooling systems'}
                  button={'Contact us'}

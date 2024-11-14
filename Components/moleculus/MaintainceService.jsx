@@ -19,12 +19,11 @@ function MaintainceService() {
                         </Link>
                     </div> */}
 
-                   <div className='xl:w-[35%] lg:w-[35%] md:w-[40%] sm:w-[60%] flex justify-center'>
-                   <Link href='/contactus' className='flex items-center text-white text-[15px]  font-[600] '>   
-                            <button className=' bg-[#3787c3] capitalize text-[#fff] hover:bg-[white] hover:text-[#3787c3] border-[1px] border-[#3787c3] transition 0.5s ease-in w-[200px]  rounded-md h-[50px] flex justify-center items-center text-center '   >
-                            Contact Us  
-                            </button></Link>
-                   </div>
+                   <div className="hover-fill-from-bottom leading-[30px] bg-white py-[11px] flex justify-center items-center xl:w-[30%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+            <Link href="/contactus" className="flex items-center leading-[30px] text-[18px] font-[600]">
+              Contact Us 
+            </Link>
+          </div>
                 </div>
 
             </div>

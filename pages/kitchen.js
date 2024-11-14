@@ -5,7 +5,6 @@ function kitchen() {
     return (
         <div>
             <Kitchen />
-
         </div>
     )
 }

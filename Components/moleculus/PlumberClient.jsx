@@ -3,20 +3,20 @@ import { IoIosStar } from "react-icons/io";
 
 const PlumberClient = ( { src , name , msg } ) => {
     return (
-            <div className=' flex mx-[8%] rounded-[10px] hover:shadow-xl ml-[9%]  justify-center items-center bg-gray-200 py-[70px] mb-[50px] flex-col gap-[15px] items-center  ' >
+            <div className=' flex mx-[8%] bg-[#1357A6] rounded-[10px] hover:shadow-xl ml-[9%]  justify-center items-center  py-[70px] mb-[50px] flex-col gap-[15px] items-center  ' >
                 <div className="imge w-[10%] ">
-                    <img className='rounded-full w-[100%] h-[full] ' src={src} alt="" />
+                    <img className='rounded-full w-[100px] h-[100px] ' src={src} alt="" />
 
                 </div>
-                <h3 className='font-medium' > {name} </h3>
+                <h3 className='font-medium text-white' > {name} </h3>
                 <div className="flex">
-                    <IoIosStar className='text-blue-500' />
-                    <IoIosStar className='text-blue-500' />
-                    <IoIosStar className='text-blue-500' />
-                    <IoIosStar className='text-blue-500' />
-                    <IoIosStar className='text-blue-500' />
+                    <IoIosStar className='text-white' />
+                    <IoIosStar className='text-white' />
+                    <IoIosStar className='text-white' />
+                    <IoIosStar className='text-white' />
+                    <IoIosStar className='text-white' />
                 </div>
-                <p className='max-w-[600px] text-gray-700 font-medium text-center ' > {msg} </p>
+                <p className='max-w-[600px] text-white font-medium text-center ' > {msg} </p>
             </div>
     )
 }

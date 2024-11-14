@@ -2,32 +2,36 @@ import React from 'react'
 import Container from '../atoms/Container'
 import Image from 'next/image'
 
-
 function Tile2ndban() {
   return (
-
     <Container>
-    <div className='my-[60px]  xl:flex xl:flex-nowrap xl:items-center xl:justify-between lg:flex lg:flex-nowrap lg:items-center lg:justify-between  md:flex md:flex-wrap md:items-center md:justify-center  sm:flex sm:flex-wrap sm:items-center sm:justify-center flex flex-wrap items-center justify-center '>
-    <div className=" shadow-slate-500 mt-[70px] xl:w-[48%] xl:order-none  lg:w-[48%] lg:order-none  md:w-[100%] md:order-2 sm:w-[100%]  sm:order-2 w-[100%] order-2">
-        <Image src="/assits/images/tiles01.jpg"
-         alt=""  
-         width={800} 
-         height={600} 
-         />
-    </div>
-    <div className='  flex flex-col gap-[20px] xl:w-[48%] xl:order-none lg:w-[48%] lg:order-none  md:w-[100%] md:my-[50px] md:order-1 sm:w-[100%] sm:my-[50px] sm:order-1 w-[100%] my-[50px] order-1'>
-       <h1 className='text-[34px] font-semibold leading-[41px] text-[black]'>
-       Rely On Us For Tile Fix Dubai: We Are Top Tile Fixing Contractors In Dubai!</h1>
-       <p className='text-[18px] font-400 leading-[35px] text-[black]'>
-       As one of the top tile fixing contractors in Dubai, our team at Rely On Us is proud to offer our professional services to residents and businesses throughout the city. We have a team of experienced and qualified  who are available to help with any tile fixing needs you may have.
-       </p>
-       <p className="text-[17px] font-400 leading-[35px] text-[black]">
-       Whether you need help with a small repair or a complete tile installation, we are here to help. We also offer a wide range of other services, including tile cleaning and tile restoration. No matter what your needs are, we are confident that we can provide you with the services you need.
-       </p>
-    </div>
-    </div>
-    </Container>
+      <div className="my-16 xl:flex xl:items-center xl:justify-between gap-10 flex flex-col-reverse xl:flex-row bg-[#1357A6] p-10 rounded-lg shadow-lg">
+        
+        {/* Image Section */}
+        <div className="relative shadow-lg rounded-lg overflow-hidden xl:w-[48%] w-full">
+          <Image 
+            src="/assits/images/tiles01.jpg"
+            alt="Tile Services"
+            width={800}
+            height={600}
+            className="hover:scale-105 transform transition-transform duration-300"
+          />
+        </div>
 
+        {/* Text Section */}
+        <div className="flex flex-col gap-6 xl:w-[50%] w-full text-center xl:text-left text-white">
+          <h1 className="text-3xl font-semibold leading-tight">
+            Rely On Us For Tile Fix Dubai: We Are Top Tile Fixing Contractors In Dubai!
+          </h1>
+          <p className="text-lg leading-relaxed">
+            As one of the top tile fixing contractors in Dubai, our team at Rely On Us is proud to offer our professional services to residents and businesses throughout the city. We have a team of experienced and qualified professionals who are available to help with any tile fixing needs you may have.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Whether you need help with a small repair or a complete tile installation, we are here to help. We also offer a wide range of other services, including tile cleaning and tile restoration. No matter what your needs are, we are confident that we can provide you with the services you need.
+          </p>
+        </div>
+      </div>
+    </Container>
   )
 }
 

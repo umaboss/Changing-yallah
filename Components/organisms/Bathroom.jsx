@@ -15,7 +15,7 @@ function Bathroom() {
             <Headermain />
             <Bathroombanner />
             <Bathroomban1 />
-            <Bathroomban2 />
+            {/* <Bathroomban2 /> */}
             <BathroomHeading />
             <Bathroomimages />
             <div className='p-[50px]'>

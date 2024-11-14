@@ -23,7 +23,11 @@ const PlumberQuality = () => {
               <PlumberFeature data-aos="fade-up" data-aos-duration="3000" text='transparent comunications' />
             </div>
           </div>
-          <Link href="/about" data-aos="fade-up" className='decoration-none text-white text-[14px] font-medium text-white bg-blue-500 border-[1px] border-[#3787c3]  hover:text-[#3787c3] hover:bg-white duration-[0.3s] ease-in-out py-[10px] rounded-[13px] w-[120px] text-center  flex items-center gap-[5px] justify-center' > About Us <FaArrowRight /> </Link>
+          <div className="hover-fill-from-bottom leading-[30px] py-[11px] flex justify-center items-center xl:w-[30%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+            <Link href="/contactus" className="flex items-center leading-[30px] text-[18px] font-[600]">
+              About Us 
+            </Link>
+          </div>
         </div>
         <div data-aos="zoom-in-left"  className="right  w-[45%] ">
         <Image
