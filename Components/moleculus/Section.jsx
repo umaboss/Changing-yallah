@@ -23,7 +23,7 @@ function Section() {
           data-aos-duration="1000"
         >
           <Image
-            className="rounded-md h-[550px] w-full"
+            className="rounded-md h-[550px] w-full object-cover"
             src="/assits/images/session.jpg"
             alt="Description"
             width={500}

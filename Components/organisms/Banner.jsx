@@ -9,7 +9,7 @@ export default function Banner() {
       <div className="baner-bg">
         <div className="content py-[15%] px-[3%] grid gap-9">
           {/* Welcome Box */}
-          <div className='py-[10px] text-white px-[20px] bg-[#164B8D] xl:w-[23%] lg:w-[25%] md:w-[33%] sm:w-[50%] text-center w-[80%]'>
+          <div className='py-[10px] xl:mt-0 lg:mt-0 md:mt-[50px] sm:mt-[90px] mt-[90px] text-white px-[20px] bg-[#164B8D] xl:w-[23%] lg:w-[25%] md:w-[33%] sm:w-[50%] text-center w-[80%]'>
             <Heading level="6" className="xl:text-[14px] md:text-[12px] text-[12px]">
               WELCOME TO YALLA DO THIS
             </Heading>

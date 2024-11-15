@@ -16,7 +16,7 @@ function Offermain() {
                 <Heading level='2'>What We Offer</Heading>
                 <Paragraph variant='offer'>We offer the best ac repair services in UAE for any type of ac problems you might be facing, we also provide best cooling solutions and service for your home and office. We are a team of experts with many years of experience in the field that will surely help you out. You can also call us if you have any other queries regarding air conditioners or air conditioner repairing services that we provide</Paragraph>
             </div>
-            <div className='flex pt-[2%] gap-[20px] '>
+            <div className=' pt-[2%] gap-[20px] grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 '>
             <Offer text={'AC Cleaning'} src={'/assits/images/uaequick-ac-cleaing.jpg'} />
             <Offer text={'AC Duct Cleaning'} src={"assits/images/uaequick-ac-duct.jpg"} />
             <Offer text={"AC Installation"} src={'assits/images/uaequick-ac-installations.jpg'} />

@@ -18,11 +18,7 @@ function Temperature() {
   }, []);
 
   return (
-    <div className="no-scrollbar relative bg-gray-100 w-full h-[1190px]">
-      <div
-        className="absolute w-full h-full inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${images[0]})` }}
-      >
+    <div className="no-scrollbar relative bg-gray-100 w-full pb-[80px]">
         <Container>
           <div className='text-center pt-[5%] grid gap-[20px]'>
             <Paragraph variant='tempara'>WHAT WE OFFER</Paragraph>
@@ -146,7 +142,6 @@ function Temperature() {
             </div>
           </div>
         </Container>
-      </div>
     </div>
   );
 }
