@@ -8,7 +8,7 @@ function Electircban2() {
     <Container>
       <div className='my-[60px]  mt-[70px] xl:items-center xl:justify-between lg:flex lg:flex-nowrap lg:items-center lg:justify-between md:flex md:flex-wrap md:items-center md:justify-center sm:flex sm:flex-wrap sm:items-center sm:justify-center flex flex-wrap items-center justify-center'>
         <div className="shadow-slate-500 xl:w-[48%] xl:order-none  lg:w-[48%] lg:order-none  md:w-[100%] md:order-2 sm:w-[100%]  sm:order-2 w-[100%] order-2 ">
-          <img src="/assits/images/electrician-2.jpg" alt="" width='100%' height='100%' />
+          <img src="/assits/Electrical Services/e3.jpg" alt="" width='100%' height='100%' />
         </div>
         <div className='  flex flex-col gap-[20px] xl:w-[48%] xl:order-none lg:w-[48%] lg:order-none  md:w-[100%] md:my-[50px] md:order-1 sm:w-[100%] sm:my-[50px] sm:order-1 w-[100%] my-[50px] order-1'>
           <h1 className='text-[34px] font-semibold leading-[41px] text-[black]'>

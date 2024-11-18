@@ -32,7 +32,7 @@ const PlumberQuality = () => {
         <div data-aos="zoom-in-left"  className="right  w-[45%] ">
         <Image
   className="w-full" // Use 'w-full' for full width in Tailwind CSS
-  src="/assits/images/plumber.jpg"
+  src="/assits/Plumbing Services/aboutplum.jpg"
   alt=""
   width={500}  // Set an appropriate width in pixels
   height={300} // Set the corresponding height in pixels

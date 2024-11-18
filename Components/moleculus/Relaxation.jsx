@@ -5,12 +5,12 @@ import { LuCrown } from "react-icons/lu";
 import { TfiMedall } from "react-icons/tfi";
 import { LiaUserCheckSolid } from "react-icons/lia";
 import { MdSupportAgent } from "react-icons/md";
-import AOS from 'aos'; // Import AOS
-import 'aos/dist/aos.css'; // Import AOS styles
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 function Relaxation() {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // Initialize AOS with custom settings
+    AOS.init({ duration: 1000, once: true }); 
   }, []);
 
   return (
@@ -32,7 +32,7 @@ function Relaxation() {
             <div className='gap-[15px] items-center justify-center xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 grid grid-cols-1'>
 
               {/* First Card - Always Active (Exceed your expectations) */}
-              <div className='shadow-lg flex h-[135px] w-[370px] rounded gap-[20px] py-[15px] pl-[12px] bg-[#3787c3]'
+              {/* <div className='shadow-lg flex h-[135px] w-[370px] rounded gap-[20px] py-[15px] pl-[12px] bg-[#3787c3]'
                 data-aos="fade-up" // Animation: Fade up
               >
                 <div className='text-[42px] text-[#091736]'>
@@ -46,11 +46,17 @@ function Relaxation() {
                     We surpass your expectations with superior quality and exceptional craftsmanship.
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               {/* Other Cards with Hover Effect */}
 
               {[{
+                icon: <LuCrown />,
+                title: 'Exceed your expectations',
+                text: 'We surpass your expectations with superior quality and exceptional craftsmanship.',
+                animation: 'fade-up' // Animation: Fade right
+              },
+              {
                 icon: <TfiMedall />,
                 title: 'Deliver 100% satisfaction',
                 text: 'We deliver 100% satisfaction through exceptional quality and dedicated service.',

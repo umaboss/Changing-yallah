@@ -23,11 +23,11 @@ function Tile1stban() {
         {/* Image Section */}
         <div className="relative shadow-lg rounded-lg overflow-hidden xl:w-[48%] w-full">
           <Image 
-            src="/assits/images/tile2.jpg" 
+            src="/assits/Tiles Fixing/tile1.jpg" 
             alt="Tile Services" 
             width={800} 
-            height={600} 
-            className="hover:scale-105 transform transition-transform duration-300"
+            height={200} 
+            className="hover:scale-105 h-[400px] transform transition-transform duration-300"
           />
         </div>
       </div>

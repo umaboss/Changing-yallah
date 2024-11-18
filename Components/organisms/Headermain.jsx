@@ -30,7 +30,7 @@ function Headermain() {
 
   return (
     <div className='fixed top-0 left-0 right-0 z-50 bg-[#3787C3] '>
-      <div className='flex justify-between items-center w-full'>
+      <div className='flex justify-between items-center w-full pl-[10px]'>
         <Logo />
 
         {/* Header Section */}
@@ -62,7 +62,7 @@ function Headermain() {
                 <Link href="/about" className="navLink hover:bg-[#246fa3] px-4 py-2 rounded">About</Link>
               </li>
               <li className="navItem">
-                <Link href="/contact" className="navLink hover:bg-[#246fa3] px-4 py-2 rounded">Contact</Link>
+                <Link href="/contactus" className="navLink hover:bg-[#246fa3] px-4 py-2 rounded">Contact</Link>
               </li>
             </ul>
 
@@ -106,7 +106,7 @@ function Headermain() {
             </li>
 
             <li><Link href="/about" className="mobileNavLink hover:bg-[#246fa3] p-4 block">About</Link></li>
-            <li><Link href="/contact" className="mobileNavLink hover:bg-[#246fa3] p-4 block">Contact</Link></li>
+            <li><Link href="/contactus" className="mobileNavLink hover:bg-[#246fa3] p-4 block">Contact</Link></li>
           </ul>
         </div>
       </div>

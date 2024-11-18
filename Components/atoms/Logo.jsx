@@ -1,15 +1,22 @@
 import PropTypes from 'prop-types';
-// import Image from '../Image/Image';
 
 const Logo = ({ src, alt, href }) => {
   return (
-    <div>
+    <div className="relative">
       {LogoData.map((item) => {
         return (
-          <a className='w-[100px]  block' key={item.href} href={item.href}>
-            <img src={item.src} alt={item.alt} />
+          <a className="w-[100px] block relative" key={item.href} href={item.href}>
+            <img
+              src={item.src}
+              alt={item.alt}
+              style={{ filter: 'invert(1)' }} // Apply white effect if logo is black
+              className="w-full logo-image" // Adds custom class for image
+            />
+            <div className="absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] text-white font-bold text-[12px]">
+              {item.text}  {/* Replace item.alt with item.text for your custom text */}
+            </div>
           </a>
-        )
+        );
       })}
     </div>
   );
@@ -24,9 +31,9 @@ Logo.propTypes = {
 const LogoData = [
   {
     href: '/',
-    src: '/assits/images/logo1.png',
-    alt: 'logo'
+    src: '/assits/logop.png',  // Your logo image path
+    alt: 'logo',  // This is the alt attribute for the image
   }
-]
+];
 
 export default Logo;

@@ -10,7 +10,7 @@ function contactus() {
     return (
         <div >
             <Headermain />
-            <div className='contact text-center'>
+            <div className='contact text-center pt-[90px]'>
                 <Heading level={'2'}>Contact Us</Heading>
             </div>
 

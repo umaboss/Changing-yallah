@@ -13,10 +13,10 @@ function Bathroomimages() {
                 <Tailimg src="/assits/images/bath5.jpg" />
                 <Tailimg src="/assits/images/bath7.jpg" />
                 <Tailimg src="/assits/images/bath10.jpg" /> */}
-                <Bathimg src='/assits/images/bathroom5.jpg'/>
+                <Bathimg src='/assits/Bathroom/batheses1.jpg'/>
                 <Bathimg src='/assits/images/bathroom5.jpg'/>
                 <Bathimg src='/assits/images/bathroom9.jpg'/>
-                <Bathimg src='/assits/images/bathroom11.jpg'/>
+                <Bathimg src='/assits/Bathroom/batheses2.jpg'/>
                 <Bathimg src='/assits/images/bathroom11.jpg'/>
                 <Bathimg src='/assits/images/bathroom5.jpg'/>
             </div>

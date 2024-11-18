@@ -30,7 +30,7 @@ function Map() {
                         </Paragraph>
                     </div>
                     <div className='pt-[7%]'>
-                        <div className='flex  items-center justify-evenly'>
+                        <div className='flex flex-col gap-[15px]'>
                             <div className='flex   items-center text-center gap-2'>
                                 <IoLocation className='text-2xl' />
                                 {/* <Span level='contact'>Al Qouz, Dubai</Span> */}
@@ -47,7 +47,7 @@ function Map() {
                         </div>
                         
 
-                        <div className='flex text-center items-center justify-center  mr-[12%] gap-[10px] pt-[30px]'>
+                        <div className='flex  mr-[12%] gap-[10px] pt-[30px]'>
                            <Link href='tel:00971 50 8786126'> <IoCall className='text-[25px]' /></Link>
                             {/* <Span level='contact'>00971 50 8786126</Span> */}
                             <Link href='tel:00971 50 8786126' className='text-[14px] font-[400] text-black'>

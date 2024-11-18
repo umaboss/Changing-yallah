@@ -10,7 +10,7 @@ function Tile2ndban() {
         {/* Image Section */}
         <div className="relative shadow-lg rounded-lg overflow-hidden xl:w-[48%] w-full">
           <Image 
-            src="/assits/images/tiles01.jpg"
+            src="/assits/Tiles Fixing/tiles2.jpg"
             alt="Tile Services"
             width={800}
             height={600}

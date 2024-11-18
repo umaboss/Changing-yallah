@@ -7,8 +7,7 @@ const PlumberResponse = () => {
     return (
         <div className=' mt-[50px] mb-[50px] px-[8%] flex justify-between items-center ' >
             <div className="flex w-[48%] justify-between ">
-                <img data-aos="fade-right" data-aos-duration="1000" className='w-[100%] rounded-[10px] ' src="/assits/images/plumber1.jpg" alt="" />
-                <img data-aos="fade-right" data-aos-duration="1500" className='w-[100%] rounded-[10px] ' src="/assits/images/plumber2.jpg" alt="" />
+                <img data-aos="fade-right" data-aos-duration="1000" className='w-[100%] rounded-[10px] h-[500px]' src="/assits/Plumbing Services/res.jpg" alt="" />
             </div>
             <div data-aos="zoom-in-left" className=" flex flex-col gap-[15px] w-[47%] ">
                 <h3 data-aos="fade-up-left" data-aos-duration="1000" className=' text-[33px] font-semibold w-[300px]  ' >We Respond to

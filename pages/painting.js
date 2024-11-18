@@ -20,17 +20,17 @@ const PaintingPortion = () => {
     <>
       <Headermain />
       {/* yay div is leay bny h k image na he bg pr fit ho rahe the or na he img tag mn */}
-      <div className="mb-[60px] bg-black relative bg-no-repeat w-full bg-cover items-center justify-center overflow-hidden"
-        >
-        <img className="" src="/assits/images/bannerpnt1.png" alt="banner"  />
-        <h2 className="text-white text-center z-30 font-semibold absolute top-[56%] xl:left-[40%] xl:text-[36px] lg:text-[30px] md:left-[40%] md:text-[26px] sm:left-[35%] sm:text-[26px] left-[29%] text-[20px]">
-          Painting & Portion
-        </h2>
-      </div>
+      <div className="mb-[60px] relative bg-no-repeat w-full bg-cover items-center justify-center overflow-hidden h-[300px]">
+  <img className="object-cover w-full h-full" src="/assits/bannerp.jpg" alt="banner" />
+  <h2 className="text-white text-center z-30 font-semibold absolute top-[50%] xl:left-[40%] xl:text-[36px] lg:text-[30px] md:left-[40%] md:text-[26px] sm:left-[35%] sm:text-[26px] left-[29%] text-[20px]">
+    Painting & Portion
+  </h2>
+</div>
+
       <Container>
         <HeroSection
           children1="Our company, the Dubai Painting Services aims at offering excellent house painting services in the UAE. You can be assured of our efficient team to transform your house into an artistic masterpiece as you seek painting services. Whether you want a few rooms painted inside your home, or you need a complete makeover of the outside of your home, we can help."
-          src="/assits/images/herimage.jpg"
+          src="/assits/pab.jpg"
         />
         <HousePaintingSection />
         <PaintProcessPortion />

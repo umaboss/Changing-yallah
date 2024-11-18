@@ -40,7 +40,7 @@ function Temperature() {
             >
               <div className="flex flex-col items-center justify-center gap-[20px]">
                 <div className="icon-container bg-[#3787c3] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-auto mt-[60px]">
-                  <FaFan />
+                  <FaFan className='icon-container1' />
                 </div>
                 <div className="grid text-change gap-[20px]">
                   <span className='text-[28px] text-[#091736] font-[700] leading-[1em] tracking-[1px]'>AC Services</span>
@@ -58,7 +58,7 @@ function Temperature() {
             >
               <div className="flex flex-col items-center justify-center gap-[20px]">
                 <div className="icon-container bg-[#3787c3] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-auto mt-[60px]">
-                  <BsTools />
+                  <BsTools  className='icon-container1'/>
                 </div>
                 <div className="grid text-change gap-[20px]">
                   <span className='text-[28px] text-[#091736] font-[700] leading-[1em] tracking-[1px]'>Home Renovation</span>
@@ -76,7 +76,7 @@ function Temperature() {
             >
               <div className="flex flex-col items-center justify-center gap-[20px]">
                 <div className="icon-container bg-[#3787c3] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-auto mt-[60px]">
-                  <PiPipeLight />
+                  <PiPipeLight className='icon-container1' />
                 </div>
                 <div className="grid text-change gap-[20px]">
                   <span className='text-[28px] text-[#091736] font-[700] leading-[1em] tracking-[1px]'>Modern Bathroom</span>
@@ -94,7 +94,7 @@ function Temperature() {
             >
               <div className="flex flex-col items-center justify-center gap-[20px]">
                 <div className="icon-container bg-[#3787c3] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-auto mt-[60px]">
-                  <MdAutoAwesome />
+                  <MdAutoAwesome className='icon-container1' />
                 </div>
                 <div className="grid text-change gap-[20px]">
                   <span className='text-[28px] text-[#091736] font-[700] leading-[1em] tracking-[1px]'>Gypsum Works</span>
@@ -112,7 +112,7 @@ function Temperature() {
             >
               <div className="flex flex-col items-center justify-center gap-[20px]">
                 <div className="icon-container bg-[#3787c3] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-auto mt-[60px]">
-                  <MdOutlineRoofing />
+                  <MdOutlineRoofing className='icon-container1' />
                 </div>
                 <div className="grid text-change gap-[20px]">
                   <span className='text-[28px] text-[#091736] font-[700] leading-[1em] tracking-[1px]'>Paint Works</span>
@@ -130,7 +130,7 @@ function Temperature() {
             >
               <div className="flex flex-col items-center justify-center gap-[20px]">
                 <div className="icon-container bg-[#3787c3] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-auto mt-[60px]">
-                  <FaFan />
+                  <FaFan className='icon-container1' />
                 </div>
                 <div className="grid text-change gap-[20px]">
                   <span className='text-[28px] text-[#091736] font-[700] leading-[1em] tracking-[1px]'>Tile Fixing</span>

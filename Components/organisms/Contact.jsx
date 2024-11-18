@@ -11,10 +11,10 @@ function Contact() {
     <div>
       <Container>
 
-        <div className='flex '>
-          <div className='pt-[4%] '>
-            <img className='w-[600px]' src="/assits/images/contact.jpg" alt="" />
-            <div className=' '>
+        <div className='flex gap-[30px]'>
+          <div className=' w-[50%]'>
+            <img className='w-[100%]' src="/assits/images/contact.jpg" alt="" />
+            <div className='pt-[30px]'>
               <Heading level='3'>Need to connect with a specific office?</Heading>
               <div className=''>
                 <Paragraph variant='contact'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut expedita, officia quibusdam voluptatibus blanditiis laudantium. Asperiores id, aliquam est praesentium, vel molestias esse itaque quae error magni temporibus, soluta provident?</Paragraph>
@@ -22,7 +22,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className='w-full '>
+          <div className='w-[50%] '>
             <form>
               <div className='flex gap-[30px]'>
                 <div className="pt-[15px] w-[50%]">

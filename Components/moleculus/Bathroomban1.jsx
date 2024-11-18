@@ -21,11 +21,11 @@ function Bathroomban1() {
                     {/* Image with button on top */}
                     <div className='relative'>
                         <Image
-                            src="/assits/images/bathroom1.jpg"
+                            src="/assits/Bathroom/aboutb.jpg"
                             alt="Tile Fixing"
                             width={800}
                             height={600}
-                            className='object-cover w-full h-full rounded-lg transition-all duration-300 transform hover:scale-105'
+                            className='object-cover w-full h-[500px] rounded-lg transition-all duration-300 transform hover:scale-105'
                         />
                         {/* Button on top of image */}
                        

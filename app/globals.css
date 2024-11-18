@@ -287,15 +287,54 @@ li:hover .dropdown2 {
 
 
 .maintances-bg {
-    background-image: url("../public/assits/images/couple-turning");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-    transition: 0.3s, border-radius 0.3s, opacity 0.3s;
-    z-index: 0;
-    position: relative;
-    height: 600px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ), 
+    url("../public/assits/AC Maintenence/men2.jpg"); /* Gradient overlay with image */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9; /* Slightly more visible */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Stylish shadow */
+  transition: all 0.5s ease-in-out; /* Smooth transition for all properties */
+  z-index: 0;
+  position: relative;
+  height: 600px;
+  overflow: hidden; /* For cleaner hover effects */
+}
+
+/* Hover Effect */
+.maintances-bg:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  opacity: 1; /* Fully visible */
+  border-radius: 20px; /* Increased rounding on hover */
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+}
+
+/* Optional: Adding a subtle background animation */
+.maintances-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1); /* Light overlay animation */
+  opacity: 0.5;
+  animation: bg-move 8s infinite alternate;
+  z-index: -1;
+}
+
+/* Keyframes for subtle animation */
+@keyframes bg-move {
+  0% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(10px);
+  }
 }
 
 .contact {
@@ -319,21 +358,62 @@ li:hover .dropdown2 {
 }
 
 .temp-bg {
-    background-image: url("../public/assits/images/plumber-banner.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s, border-radius 0.3s, opacity 0.3s;
-    z-index: 0;
-    position: relative;
-    height: 500px;
+  background-image: url("../public/assits/Downloads/AC Maintenence/men.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  z-index: 0;
+  transition: transform 0.5s ease, filter 0.3s ease;
+
+  /* Add a subtle animation effect on hover */
+  &:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+  }
+}
+
+.temp-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Styles for the content within the section */
+.temp-bg .content {
+  position: relative;
+  z-index: 2; /* Ensure it appears above the overlay */
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 8%;
+}
+
+.temp-bg .content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+  line-height: 1.3;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.temp-bg .content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 
-
-.session-container:hover .counter-text{
-    color: white;
-}
 /* yaha sa */
 
 .marval:hover .icon1 {
@@ -395,4 +475,25 @@ li:hover .dropdown2 {
 /* Optional: For smooth color change, you can add this */
 .social-link:hover path {
     fill: #164B8D; /* Change color for SVG icons on hover */
+}
+
+
+
+
+.icon-container1 {
+  transition: transform 0.6s ease-in-out; /* Slower and smoother transition */
+}
+
+.icon-container:hover .icon-container1 {
+  transform: rotate(360deg); /* Full rotation */
+}
+
+
+/* styles.css */
+.logo-image {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.logo-image {
+  transform: scale(1.1); /* Slightly enlarges the image */
 }

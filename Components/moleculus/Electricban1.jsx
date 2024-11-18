@@ -14,7 +14,7 @@ function Electricban1() {
         </div>
         <div className="shadow-slate-500 mt-[30px] xl:w-[48%]  lg:w-[48%]  md:w-[100%] sm:w-[100%]  w-[100%]">
         <img 
-  src="/assits/images/four.jpg" 
+  src="/assits/Electrical Services/e2.jpg" 
   alt="" 
   style={{ width: '100%', height: 'auto' }} 
 />
