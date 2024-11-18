@@ -8,6 +8,7 @@ import KitchenHeading from '../moleculus/KitchenHeading'
 import Kitchenimages from '../moleculus/Kitchenimages'
 import PlumberContact from './PlumberContact'
 import Heading from '../atoms/Heading'
+import Container from '../atoms/Container'
 
 
 
@@ -21,9 +22,11 @@ function Kitchen() {
             {/* <Kitchenban2 /> */}
             <KitchenHeading />
             <Kitchenimages />
-            <div className='pt-[50px] pl-[50px]'>
+            <Container>
+            <div className='pt-[50px]'>
                 <Heading level={'2'}>Contact Us</Heading>
             </div>
+            </Container>
             <div className='my-[70px]'>
                 <PlumberContact />
             </div>

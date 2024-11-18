@@ -7,7 +7,7 @@ function MaintainceService() {
         <div className=''>
             <div className="maintances-bg  ">
                 <div className="z-50 flex flex-col items-center justify-center gap-[30px] content-container">
-                    <h1 className='text-[42px] text-[#091736] tracking-[-2px] leading-[1.1em] font-[800] xl:w-[70%]  lg:w-[70%]  md:w-[100%] sm:w-[100%]  w-[100%] '>
+                    <h1 className='text-[42px] text-white tracking-[-2px] leading-[1.1em] font-[800] xl:w-[70%]  lg:w-[70%]  md:w-[100%] sm:w-[100%]  w-[100%] '>
                         Discount up to 50% for  maintenance service. Only this month!
                         </h1>
                     <p className="text-white     w-full ">

@@ -9,7 +9,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import Paragraph from '../atoms/Paragraph';
 import { FaYoutube, FaInstagram } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io";
 import Link from 'next/link';
 import Image from 'next/image';
 import '../../app/globals.css'
@@ -17,7 +16,7 @@ import '../../app/globals.css'
 function Footer() {
 
     return (
-        <div className="bg-[#3787C3]">
+        <div className="bg-[#164B8D]">
             <Container>
                 <div className='mt-[50px]'>
                     <hr />
@@ -34,31 +33,7 @@ function Footer() {
                                 />
                                 <Span level="footer">company name Waqas Fahad <br /> Technical Services. Al Qouz Dubai</Span>
                             </div>
-
-                            <div className='grid gap-[10px] flex flex-col xl:order-none lg:order-none md:order-none sm:order-3 order-3'>
-                                <div className='flex items-center gap-[8px]'>
-                                    <Link href='mailto:waqaswqspk@gmail.com'>
-                                        <FaRegEnvelope className='text-[#3787c3]' />
-                                    </Link>
-                                    <Link href='mailto:waqaswqspk@gmail.com' className='text-[16px] items-start cursor-pointer text-white font-normal'>
-                                        waqaswqspk@gmail.com
-                                    </Link>
-                                </div>
-                            </div>
-
                             <div>
-                                <div className='xl:flex gap-[15px] pt-[10px] my-[3%] text-[20px] sm:flex sm:items-center'>
-                                    <Link href='' className="social-link"><FaFacebookF className='text-[#124076]' /></Link>
-                                    <Link href='' className="social-link"><FaInstagram className='text-[#fd1d1d]' /></Link>
-                                    <Link href='' className="social-link"><FaTwitter className='text-[#08a0e9]' /></Link>
-                                    <Link href='' className="social-link"><FaYoutube className='text-[#FF0000]' /></Link>
-                                </div>
-                            </div>
-
-                            <div className='text-[#399918] py-[5%]'>
-                                <Link href="tel:+971 508786126">
-                                    <IoLogoWhatsapp className='text-[50px]' />
-                                </Link>
                             </div>
                         </div>
 
@@ -89,7 +64,7 @@ function Footer() {
                             <Heading level="4">Newsletter</Heading>
                             <div className="mt-[20px] grid gap-[10px]">
                                 <Span level='footer'>Signup our newsletter to get update information, news, insight or promotions.</Span>
-                                <input type="text" placeholder=' Email' className='w-[100%] h-[45px] outline-[#45a6af] text-[14px] px-[20px] bg-[#f8f7f7] py-[5px] text-[#b4b3b3]' />
+                                <input type="text" placeholder=' Email' className='w-[100%] rounded-[30px] h-[45px] outline-[#45a6af] text-[14px] px-[20px] bg-[#f8f7f7] py-[5px] text-[#b4b3b3]' />
                                 <div className="hover-fill-from-bottom bg-white leading-[30px] py-[11px] flex justify-center items-center xl:w-[100%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
                                     <Link href="/contactus" className="flex items-center leading-[30px] text-[18px] font-[600]">
                                         SignUp
@@ -100,9 +75,9 @@ function Footer() {
 
                     </div>
                 </div>
-            </Container>
 
-            <div className="bg-[#3787c3] border-t-2 border-solid border-white text-[14px] text-white py-[30px] flex flex-col items-center justify-center sm:flex sm:flex-col sm:items-center sm:justify-center md:flex md:flex-row md:px-[10px] md:items-center md:justify-between lg:flex lg:flex-row lg:px-[50px] lg:justify-between xl:flex xl:flex-row xl:px-[50px] xl:justify-between">
+            </Container>
+            <div className="bg-[#164B8D] border-t-2 border-solid border-white text-[14px] text-white py-[30px] flex flex-col items-center justify-center sm:flex sm:flex-col sm:items-center sm:justify-center md:flex md:flex-row md:px-[10px] md:items-center md:justify-between lg:flex lg:flex-row lg:px-[80px] lg:justify-between xl:flex xl:flex-row xl:px-[100px] xl:justify-between">
                 <p className='order-2 sm:order-2 md:order-none lg:order-none xl:order-none'>Copyright © 2022 Jezzcool, All rights reserved. Powered by MoxCreative.</p>
                 <div className='gap-[10px] xl:flex xl:flex-row xl:pb-0 xl:items-center xl:justify-center lg:flex lg:flex-row lg:items-center lg:pb-0 lg:justify-center md:xl:flex md:flex-row md:items-center md:pb-0 md:justify-center sm:flex sm:flex-col sm:items-center sm:pb-4 sm:justify-center flex flex-col pb-4 items-center justify-center order-1 sm:order-1 md:order-none lg:order-none xl:order-none'>
                     <Link href='' className="footer-link">Term of use</Link>

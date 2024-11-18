@@ -3,6 +3,7 @@ import PlumberClient from '../moleculus/PlumberClient';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Container from '../atoms/Container';
 
 const Customers = () => {
 
@@ -15,9 +16,10 @@ const Customers = () => {
     };
 
     return (
-        <div className=" max-w-[100%] flex flex-col gap-[30px] my-[50px] ">
+        <Container>
+            <div className="  flex flex-col gap-[30px] my-[30px] ">
             <h3 data-aos="fade-in" className='text-center text-gray-800 font-semibold text-[34px] ' >Our trusted Clients</h3>
-            <Slider className=' w-[98%] ' {...settings}>
+            <Slider className='  ' {...settings}>
                 <div data-aos="zoom-in-up" data-aos-duration="1000" >
                     <PlumberClient name='John Doe' msg="I had a great experience with PlumeCare. Their tear
                     arived on time and did an excellent job repairing my
@@ -53,6 +55,7 @@ const Customers = () => {
                 </div>
             </Slider>
         </div>
+        </Container>
     );
 };
 

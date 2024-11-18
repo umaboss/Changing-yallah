@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Logo from '../atoms/Logo';  // Assuming you have Link logo component
 import { MdMenu } from "react-icons/md";
 import Link from 'next/link';
+import Container from '../atoms/Container';
 
 function Headermain() {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle menu visibility
@@ -29,8 +30,9 @@ function Headermain() {
   }, [isMenuOpen]);
 
   return (
-    <div className='fixed top-0 left-0 right-0 z-50 bg-[#3787C3] '>
-      <div className='flex justify-between items-center w-full pl-[10px]'>
+    <div className='fixed top-0 left-0 right-0 z-50 bg-[#164B8D] '>
+      <Container>
+      <div className='flex justify-between items-center w-full '>
         <Logo />
 
         {/* Header Section */}
@@ -110,6 +112,7 @@ function Headermain() {
           </ul>
         </div>
       </div>
+      </Container>
     </div>
   );
 }

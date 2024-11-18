@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
+import Container from '../atoms/Container';
 
 
 const PlumberResponse = () => {
     return (
-        <div className=' mt-[50px] mb-[50px] px-[8%] flex justify-between items-center ' >
+        <Container>
+            <div className=' mt-[50px] mb-[50px]  flex justify-between items-center ' >
             <div className="flex w-[48%] justify-between ">
                 <img data-aos="fade-right" data-aos-duration="1000" className='w-[100%] rounded-[10px] h-[500px]' src="/assits/Plumbing Services/res.jpg" alt="" />
             </div>
@@ -24,6 +26,7 @@ const PlumberResponse = () => {
 
             </div>
         </div>
+        </Container>
     )
 }
 

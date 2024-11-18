@@ -76,7 +76,7 @@ function Relaxation() {
               }].map((item, index) => (
                 <div
                   key={index}
-                  className='shadow-lg flex h-[135px] w-[370px] rounded gap-[20px] py-[15px] pl-[12px] bg-[#ffffff] hover:bg-[#3787c3] transition-all duration-300 ease-in-out group'
+                  className='shadow-lg flex h-[135px] w-[370px] rounded gap-[20px] mr-[50px] py-[15px] pl-[12px] bg-[#ffffff] hover:bg-[#164B8D] transition-all duration-300 ease-in-out group'
                   data-aos={item.animation} // Set unique animation for each card
                 >
                   <div className='text-[42px] text-[#3787c3] group-hover:text-white transition-all duration-300'>

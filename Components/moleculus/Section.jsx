@@ -6,6 +6,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Contact from '../organisms/Contact';
+import Container from '../atoms/Container';
 
 function Section() {
   useEffect(() => {
@@ -13,7 +15,8 @@ function Section() {
   }, []);
 
   return (
-    <div className='px-[6%] py-[10%]'>
+    <Container>
+      <div className=' py-[10%]'>
       <div className='gap-[8%] xl:flex xl:flex-row xl:items-center xl:justify-center lg:flex lg:flex-row lg:items-center lg:justify-center md:flex md:flex-col md:items-center md:justify-center sm:flex sm:flex-col sm:items-center sm:justify-center flex flex-col items-center justify-center'>
 
         {/* Image Section - Animates from Left */}
@@ -90,6 +93,7 @@ function Section() {
 
       </div>
     </div>
+    </Container>
   );
 }
 

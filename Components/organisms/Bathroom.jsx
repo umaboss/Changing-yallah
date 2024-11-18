@@ -8,6 +8,7 @@ import Bathroomimages from '../moleculus/Bathroomimages'
 import Footer from './Footer'
 import Heading from '../atoms/Heading'
 import PlumberContact from './PlumberContact'
+import Container from '../atoms/Container'
 
 function Bathroom() {
     return (
@@ -18,9 +19,11 @@ function Bathroom() {
             {/* <Bathroomban2 /> */}
             <BathroomHeading />
             <Bathroomimages />
-            <div className='p-[50px]'>
+            <Container>
+            <div className='pt-[50px]'>
                 <Heading level={'2'}>Contact Us</Heading>
             </div>
+            </Container>
             <div className='my-[70px]'>
                 <PlumberContact />
             </div>

@@ -3,10 +3,12 @@ import PlumberFeature from '../moleculus/PlumberFeature'
 import { FaArrowRight } from "react-icons/fa";
 import Link from 'next/link';
 import Image from 'next/image';
+import Container from '../atoms/Container';
 
 const PlumberQuality = () => {
   return (
-      <div className=' w-[100%] items-center mt-[70px] px-[8%] flex justify-between'>
+     <Container>
+       <div className=' w-[100%] items-center mt-[70px] flex justify-between'>
         <div className="left  flex flex-col  w-[48%] gap-[20px] ">
           <h2 data-aos="fade-up" data-aos-duration="1000" className=' text-[44px] leading-[50px] font-semibold ' >We Focus on Customer Satisfaction and Quality</h2>
           <p data-aos="fade-up" data-aos-duration="1500" className='font-medium  ' >Use and re-use tons of responsive sections too a main create the perfect layout. Sections are firmly of organised into the perfect starting categories</p>
@@ -40,6 +42,7 @@ const PlumberQuality = () => {
 
         </div>
       </div>
+     </Container>
   )
 }
 

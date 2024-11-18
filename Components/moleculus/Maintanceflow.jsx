@@ -1,11 +1,12 @@
 import React from 'react'
 import { FaSmile, FaStar, FaUserTie, FaProjectDiagram } from 'react-icons/fa'
 import Counter3 from './Counter3'
-
+import Container from '../atoms/Container'
 function Maintanceflow() {
     return (
-        <div className='flex items-center justify-center relative'>
-            <div className="z-60 absolute opacity-100 rounded-md shadow-2xl px-[40px] w-[90%] xl:top-[-90px] md:top-[-30px] sm:top-[-40px] top-[-40px] bg-white gap-8 xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 lg:grid lg:grid-cols-1 items-center justify-center">
+       <Container>
+         <div className='flex items-center justify-center relative'>
+            <div className="z-60 absolute opacity-100 rounded-md shadow-2xl px-[40px]  xl:top-[-90px] md:top-[-30px] sm:top-[-40px] top-[-40px] bg-white gap-8 xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 lg:grid lg:grid-cols-1 items-center justify-center">
                 
                 {/* Happy Customer */}
                 <div className="my-[25px] py-[15px] px-[73px] text-center xl:border-b-0 lg:border-b-0 sm:border-b border-b hover:bg-[#f5f5f5] hover:text-white transition-all duration-300 ease-in-out">
@@ -41,6 +42,7 @@ function Maintanceflow() {
 
             </div>
         </div>
+       </Container>
     )
 }
 
