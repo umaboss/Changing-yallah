@@ -1,15 +1,7 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-
-
 *{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -18,9 +10,6 @@
     font-variation-settings:
       "wdth" 100;
 }
-  
-  
-
 @layer utilities {
     .scrollbar::-webkit-scrollbar {
         display: none;
@@ -29,36 +18,26 @@
         display: none;
     }
 }
-
-
-
-
-
-
 .header {
     color: black;
     position: sticky;
     top: 0;
     z-index: 10;
   }
-  
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
   .navList {
     list-style: none;
     display: flex;
     gap: 30px;
   }
-  
   .navItem {
     margin: 0;
     position: relative; /* Necessary for dropdown positioning */
   }
-  
   .navLink {
     text-decoration: none;
     color: white;
@@ -73,9 +52,6 @@
   .navLink:hover {
     background-color: #0F3462;
   }
-
-
-  
   /* .navLink::after {
     content: '';
     position: absolute;
@@ -92,14 +68,11 @@
   .navLink:hover::after {
     transform: translateX(-50%) scaleX(1);
   }
-  
-
   .navLink:focus {
     outline: none;
     background-color: #0F3462;
     color: white;
   }
-  
   .navLink:active {
     transform: scale(0.98); /* Slight scale on click */
   }
@@ -108,13 +81,12 @@
   .servicesMenu {
     position: relative;
   }
-  
   .dropdown {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #0077b6;
+    background-color: #164B8D;
     padding: 10px;
     list-style: none;
     margin: 0;
@@ -123,7 +95,6 @@
     min-width: 250px;
     z-index: 1;
   }
-  
   .dropdownLink {
     display: block;
     padding: 10px 20px;
@@ -134,16 +105,13 @@
     border-radius: 4px;
     transition: background-color 0.3s ease;
   }
-  
   .dropdownLink:hover {
     background-color: #0F3462;
   }
-  
   /* Show dropdown on hover */
   .servicesMenu:hover .dropdown {
     display: block;
   }
-
 .hover-fill-from-bottom {
     position: relative;
     overflow: hidden;
@@ -152,11 +120,9 @@
     border-radius: 30px;
     transition: color 0.5s ease;
   }
-  
   .hover-fill-from-bottom:hover {
     color: white;
   }
-  
   .hover-fill-from-bottom::before {
     content: "";
     position: absolute;
@@ -167,44 +133,34 @@
     transition: transform 0.5s ease;
     z-index: 0;
   }
-  
   .hover-fill-from-bottom:hover::before {
     transform: translateY(0);
   }
-  
   .hover-fill-from-bottom a {
     position: relative;
     z-index: 1;
     color: inherit;
   }
-  
-
-
 .plumber-banner {
     background-image: url("../public/assits/images/plumber-banner.png");
     background-size: cover;
 }
-
 li:hover ul.dropdown {
     visibility: visible;
     opacity: 1;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
 }
-
 li:hover .dropdown2 {
     visibility: visible;
     opacity: 1;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
 }
-
 .dropdown {
     transition: all 0.3s ease-out;
 }
-
 .dropdown2 {
     transition: all 0.3s ease-out;
 }
-
 .bg1 {
     background-image: url(../public/assits/images/pic.png);
     background-position: center;
@@ -213,7 +169,6 @@ li:hover .dropdown2 {
     width: 100%;
     height: 100%;
 }
-
 .some {
     /* absolute inset-0 bg-black bg-opacity-50 */
     /* position:absolute; */
@@ -236,7 +191,6 @@ li:hover .dropdown2 {
     position: relative;
     overflow: hidden; /* Ensure the overlay doesn't spill outside */
   }
-  
   .baner-bg::before {
     content: '';
     position: absolute;
@@ -249,17 +203,14 @@ li:hover .dropdown2 {
     opacity: 0.7; /* Initial opacity */
     transition: opacity 0.3s ease; /* Smooth transition on hover */
   }
-  
   .baner-bg:hover::before {
     opacity: 0.5; /* Slightly more transparent on hover */
   }
-  
   /* Optional: Styling for the content within the banner */
   .baner-bg .content {
     position: relative;
     z-index: 2; /* Ensure the content is always on top */
   }
-
 .hover-effect {
     transition: transform 0.3s ease, background-color 0.3s ease;
   }
@@ -277,14 +228,10 @@ li:hover .dropdown2 {
     transition: background-color 0.3s ease;
    
   }
-  
   .hover-effect:hover .icon-container {
     background-color: white;
     color: #164B8D;
 }
-  
-
-
 .maintances-bg {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.4), 
@@ -303,7 +250,6 @@ li:hover .dropdown2 {
   height: 600px;
   overflow: hidden; /* For cleaner hover effects */
 }
-
 /* Hover Effect */
 .maintances-bg:hover {
   transform: scale(1.05); /* Slight zoom on hover */
@@ -311,7 +257,6 @@ li:hover .dropdown2 {
   border-radius: 20px; /* Increased rounding on hover */
   box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
 }
-
 /* Optional: Adding a subtle background animation */
 .maintances-bg::before {
   content: "";
@@ -325,7 +270,6 @@ li:hover .dropdown2 {
   animation: bg-move 8s infinite alternate;
   z-index: -1;
 }
-
 /* Keyframes for subtle animation */
 @keyframes bg-move {
   0% {
@@ -335,7 +279,6 @@ li:hover .dropdown2 {
       transform: translateY(10px);
   }
 }
-
 .contact {
     background-image: url("../public/assits/images/couple-turning");
     background-position: center center;
@@ -347,7 +290,6 @@ li:hover .dropdown2 {
     justify-content: center;
     align-items: center;
 }
-
 .content-container {
     position: absolute;
     top: 50%;
@@ -355,7 +297,6 @@ li:hover .dropdown2 {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
 .temp-bg {
   background-image: url("../public/assits/Downloads/AC Maintenence/men.jpg");
   background-position: center center;
@@ -366,14 +307,12 @@ li:hover .dropdown2 {
   overflow: hidden;
   z-index: 0;
   transition: transform 0.5s ease, filter 0.3s ease;
-
   /* Add a subtle animation effect on hover */
   &:hover {
       transform: scale(1.05);
       filter: brightness(1.1);
   }
 }
-
 .temp-bg::before {
   content: "";
   position: absolute;
@@ -385,7 +324,6 @@ li:hover .dropdown2 {
   z-index: 1;
   pointer-events: none;
 }
-
 /* Styles for the content within the section */
 .temp-bg .content {
   position: relative;
@@ -395,7 +333,6 @@ li:hover .dropdown2 {
   font-family: 'Poppins', sans-serif;
   padding-top: 8%;
 }
-
 .temp-bg .content h1 {
   font-size: 50px;
   font-weight: 600;
@@ -404,38 +341,30 @@ li:hover .dropdown2 {
   line-height: 1.3;
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
-
 .temp-bg .content p {
   font-size: 14px;
   line-height: 1.6;
   margin-bottom: 20px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
-
-/* yaha sa */
-
 .marval:hover .icon1 {
     left: 13px;
     rotate: 180deg;
     transition: 0.5s ease-in;
     cursor: pointer;
 }
-
 .marval:hover .icon2 {
     left: 13px;
     rotate: 180deg;
     transition: 0.6s ease-in;
     cursor: pointer;
 }
-
 .marval:hover .icon3 {
     left: 13px;
     rotate: 180deg;
     transition: 0.7s ease-in;
     cursor: pointer;
 }
-
 .marval:hover .icon4 {
     left: 13px;
     rotate: 180deg;
@@ -449,50 +378,35 @@ li:hover .dropdown2 {
     width: 100%;
     z-index: 9999;
 }
-
-
-   
 /* Custom hover styles */
 .footer-link {
     transition: all 0.3s ease;
     color: white;
 }
-
 .footer-link:hover {
-    color: #164B8D; /* Color change on hover */
+    color: #246FA3; /* Color change on hover */
     transform: translateX(5px); /* Slight shift effect */
 }
-
 .social-link {
     transition: all 0.3s ease;
 }
-
 .social-link:hover {
     transform: scale(1.1); /* Social icons scale on hover */
 }
-
 /* Optional: For smooth color change, you can add this */
 .social-link:hover path {
     fill: #164B8D; /* Change color for SVG icons on hover */
 }
-
-
-
-
 .icon-container1 {
   transition: transform 0.6s ease-in-out; /* Slower and smoother transition */
 }
-
 .icon-container:hover .icon-container1 {
   transform: rotate(360deg); /* Full rotation */
 }
-
-
 /* styles.css */
 .logo-image {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-
 .logo-image {
   transform: scale(1.1); /* Slightly enlarges the image */
 }

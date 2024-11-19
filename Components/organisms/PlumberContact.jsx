@@ -9,7 +9,7 @@ function PlumberContact() {
   return (
     <div>
       <Container>
-        <div className='flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col w-[100%] justify-between '>
+        <div className='flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col w-[100%]  justify-between '>
           <div data-aos="fade-in-right" className=' flex flex-col xl:w-[48%] lg:w-[48%] md:w-[100%] sm:w-[100%] w-[100%] gap-[20px] '>
             <img className='xl:w-[600px] lg:w-[600px] md:w-[100%] sm:w-[100%] w-[100%px] rounded-[10px] ' src="/assits/images/contact.jpg" alt="" />
             <div className=' '>
@@ -66,7 +66,7 @@ function PlumberContact() {
                 <textarea className='w-full h-[100px] outline-none border border-[#cacaca] text-[15px] text-[#302e2e] p-[15px]' placeholder="Message" />
               </div>
 
-              <div className="hover-fill-from-bottom leading-[30px] py-[11px] flex justify-center items-center xl:w-[40%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+              <div className="hover-fill-from-bottom mt-[10px] leading-[30px] py-[11px] flex justify-center items-center xl:w-[40%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
             <Link href="#" className="flex items-center leading-[30px] text-[18px] font-[600]">
               Send Massage
             </Link>

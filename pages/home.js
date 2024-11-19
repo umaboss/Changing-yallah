@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import Banner from "@/Components/organisms/Banner";
 import Headermain from "@/Components/organisms/Headermain";
@@ -20,9 +19,11 @@ function Home() {
       <Temperature />
       <MaintainceService />
       <Relaxation />
+      <div className="mb-[50px]">
       <Tempature />
+      </div>
       <Footer />
-      <WhatsappButton /> {/* WhatsApp Button yahan add kiya */}
+      <WhatsappButton />
     </div>
   );
 }

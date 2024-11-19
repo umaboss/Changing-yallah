@@ -18,7 +18,7 @@ function Footer() {
     return (
         <div className="bg-[#164B8D]">
             <Container>
-                <div className='mt-[50px]'>
+                <div className=''>
                     <hr />
                     <div className='pt-[2+%] xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 sm:grid sm:mt-5 sm:grid-cols-1 grid grid-cols-1'>
 

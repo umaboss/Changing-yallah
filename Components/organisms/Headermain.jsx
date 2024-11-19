@@ -46,8 +46,8 @@ function Headermain() {
 
               {/* Services with dropdown */}
               <li className="navItem relative group">
-                <Link href="#" className="navLink hover:bg-[#246fa3] px-4 py-2 rounded">Services</Link>
-                <ul className="dropdown absolute left-0 top-full bg-[#3787C3] hidden group-hover:block p-0 m-0 w-48">
+                <Link href="#" className="navLink hover:bg-[#164B8D] px-4 py-2 rounded">Services</Link>
+                <ul className="dropdown absolute left-0 top-full bg-[#164B8D] hidden group-hover:block p-0 m-0 w-48">
                   <li><Link href="/acservice" className="dropdownLink hover:bg-[#246fa3] px-4 py-2 block">AC Services</Link></li>
                   <li><Link href="/tileservice" className="dropdownLink hover:bg-[#246fa3] px-4 py-2 block">Tile Fixing</Link></li>
                   <li><Link href="/celling" className="dropdownLink hover:bg-[#246fa3] px-4 py-2 block">Celling</Link></li>
