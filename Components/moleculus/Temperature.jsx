@@ -38,7 +38,7 @@ function Temperature() {
               data-aos="fade-right" // Animation: Slide in from right
               data-aos-duration="1200"
             >
-              <div className="flex flex-col items-center justify-center gap-[20px]">
+              <div className="flex flex-col p-[20px] items-center justify-center gap-[20px]">
                 <div className="icon-container bg-[#3787c3] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-auto mt-[60px]">
                   <FaFan className='icon-container1' />
                 </div>
@@ -52,7 +52,7 @@ function Temperature() {
             </div>
 
             {/* Service Card 2 - Home Renovation (Slide from bottom) */}
-            <div className="hover-effect text-center bg-white h-[340px] rounded"
+            <div className="hover-effect text-center p-[20px] bg-white h-[340px] rounded"
               data-aos="fade-up" // Animation: Slide in from bottom
               data-aos-duration="1200"
             >
@@ -88,7 +88,7 @@ function Temperature() {
             </div>
 
             {/* Service Card 4 - Gypsum Works (Fade from bottom) */}
-            <div className="hover-effect text-center bg-white h-[340px] rounded"
+            <div className="hover-effect text-center p-[20px] bg-white h-[340px] rounded"
               data-aos="fade-up" // Animation: Fade in from bottom
               data-aos-duration="1200"
             >
@@ -106,7 +106,7 @@ function Temperature() {
             </div>
 
             {/* Service Card 5 - Paint Works (Slide from right) */}
-            <div className="hover-effect text-center bg-white h-[340px] rounded"
+            <div className="hover-effect text-center p-[20px] bg-white h-[340px] rounded"
               data-aos="fade-right" // Animation: Fade in from right
               data-aos-duration="1200"
             >
@@ -124,9 +124,9 @@ function Temperature() {
             </div>
 
             {/* Service Card 6 - Tile Fixing (Slide from bottom) */}
-            <div className="hover-effect text-center bg-white h-[340px] rounded"
+            <div className="hover-effect p-[20px] text-center bg-white h-[340px] rounded"
               data-aos="fade-up" // Animation: Slide up from bottom
-              data-aos-duration="1200"
+              data-aos-duration="1200" 
             >
               <div className="flex flex-col items-center justify-center gap-[20px]">
                 <div className="icon-container bg-[#3787c3] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-auto mt-[60px]">

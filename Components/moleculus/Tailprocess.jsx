@@ -4,7 +4,7 @@ import Container from '../atoms/Container';
 function Tailprocess() {
   return (
     <Container>
-      <div className="xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 grid grid-cols-1 gap-12 items-center justify-center">
+      <div className="xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 grid grid-cols-1 gap-12 items-center pb-[50px] justify-center">
         
         {/* Research */}
         <div className="group flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:bg-[#1357A6]">

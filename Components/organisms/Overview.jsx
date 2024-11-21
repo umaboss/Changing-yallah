@@ -39,8 +39,8 @@ function Overview() {
                 </Link>
             </div>
 
-            <div className='flex justify-center items-center'>
-                <div className="hover-fill-from-bottom mt-[40px] leading-[30px] flex py-[11px] justify-center items-center xl:w-[17%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+            <div className='flex justify-center mb-[30px] items-center'>
+                <div className="hover-fill-from-bottom cursor-pointer mt-[40px] leading-[30px] flex py-[11px] justify-center items-center xl:w-[17%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
                     {/* "Read More" link with fade animation from right */}
                     <Link href='/service' className='flex items-center leading-[30px] text-[18px] font-[600]' data-aos="fade-right">
                         Read more
