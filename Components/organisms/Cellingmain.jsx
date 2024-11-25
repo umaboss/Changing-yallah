@@ -9,7 +9,7 @@ function Cellingmain() {
   return (
     <div>
         <Cellingall/>
-        <Servicenow/>
+        {/* <Servicenow/> */}
         <Cellingimg/> 
         <Howwork/>
         <Clints/>

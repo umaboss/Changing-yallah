@@ -9,5 +9,4 @@ function Kitchenbanner() {
         </div>
     )
 }
-
 export default Kitchenbanner

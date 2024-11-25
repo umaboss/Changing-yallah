@@ -65,7 +65,7 @@ function Footer() {
                             <div className="mt-[20px] grid gap-[10px]">
                                 <Span level='footer'>Signup our newsletter to get update information, news, insight or promotions.</Span>
                                 <input type="text" placeholder=' Email' className='w-[100%] rounded-[30px] h-[45px] outline-[#45a6af] text-[14px] px-[20px] bg-[#f8f7f7] py-[5px] text-[#b4b3b3]' />
-                                <div className="hover-fill-from-bottom bg-white leading-[30px] py-[11px] flex justify-center items-center xl:w-[100%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+                                <div className="hover-fill-from-bottom border-transparent hover:border-white border bg-white leading-[30px] py-[11px] flex justify-center items-center xl:w-[100%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
                                     <Link href="/contactus" className="flex items-center leading-[30px] text-[18px] font-[600]">
                                         SignUp
                                     </Link>

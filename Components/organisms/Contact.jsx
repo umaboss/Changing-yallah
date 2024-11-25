@@ -75,8 +75,8 @@ function Contact() {
           </div>
 
         </div>
-      </Container>
       <Map />
+      </Container>
     </div>
   );
 }
