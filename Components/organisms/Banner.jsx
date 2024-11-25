@@ -24,7 +24,7 @@ export default function Banner() {
             </Heading>
           </div>
           {/* Contact Us Button */}
-          <div className="hover-fill-from-bottom bg-white leading-[30px] py-[11px] flex justify-center items-center xl:w-[17%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
+          <div className="hover-fill-from-bottom cursor-pointer bg-white leading-[30px] py-[11px] flex justify-center items-center xl:w-[17%] lg:w-[17%] md:w-[25%] sm:w-[30%] w-[60%]">
             <Link href="/contactus" className="flex items-center leading-[30px] text-[18px] font-[600]">
               Contact Us <MdArrowOutward />
             </Link>

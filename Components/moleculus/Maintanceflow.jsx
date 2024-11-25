@@ -17,26 +17,26 @@ function Maintanceflow() {
                 </div>
 
                 {/* Rating Customer */}
-                <div className="xl:border-l xl:border-b-0 lg:border-l lg:border-b-0 md:border-b sm:border-b border-b my-[25px] py-[15px] px-[73px] text-center hover:bg-[#f5f5f5] hover:text-white transition-all duration-300 ease-in-out">
+                <div className="my-[25px] py-[15px] px-[73px] text-center xl:border-b-0 lg:border-b-0 sm:border-b border-b hover:bg-[#f5f5f5] hover:text-white transition-all duration-300 ease-in-out">
                     <div className="flex justify-center items-center gap-3">
                         <FaStar className="text-4xl text-[#3787c3] hover:text-white" />
-                        <Counter3 targetCount={60} startCount={0} contant={"Rating Customers"} />
+                        <Counter3 targetCount={12} startCount={0} contant={"Rating Customers"} />
                     </div>
                 </div>
 
                 {/* Pro Experts */}
-                <div className="xl:border-l xl:border-b-0 lg:border-l lg:border-b-0 md:border-b sm:border-b border-b my-[25px] py-[15px] px-[73px] text-center hover:bg-[#f5f5f5] hover:text-white transition-all duration-300 ease-in-out">
+                <div className="my-[25px] py-[15px] px-[73px] text-center xl:border-b-0 lg:border-b-0 sm:border-b border-b hover:bg-[#f5f5f5] hover:text-white transition-all duration-300 ease-in-out">
                     <div className="flex justify-center items-center gap-3">
                         <FaUserTie className="text-4xl text-[#3787c3] hover:text-white" />
-                        <Counter3 targetCount={51} startCount={0} contant={"Pro Experts"} />
+                        <Counter3 targetCount={12} startCount={0} contant={"Pro Experts"} />
                     </div>
                 </div>
 
                 {/* Completed Projects */}
-                <div className="xl:border-l xl:border-b-0 lg:border-l lg:border-b-0 md:border-b my-[25px] py-[15px] px-[73px] text-center hover:bg-[#f5f5f5] hover:text-white transition-all duration-300 ease-in-out">
+                <div className="my-[25px] py-[15px] px-[73px] text-center xl:border-b-0 lg:border-b-0 sm:border-b border-b hover:bg-[#f5f5f5] hover:text-white transition-all duration-300 ease-in-out">
                     <div className="flex justify-center items-center gap-3">
                         <FaProjectDiagram className="text-4xl text-[#3787c3] hover:text-white" />
-                        <Counter3 targetCount={20} startCount={0} contant={"Completed Projects"} />
+                        <Counter3 targetCount={12} startCount={0} contant={"Completed Projects"} />
                     </div>
                 </div>
 

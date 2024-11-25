@@ -12,6 +12,7 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
 import Image from 'next/image';
 import '../../app/globals.css'
+import Logo from '../atoms/Logo';
 
 function Footer() {
 
@@ -24,13 +25,7 @@ function Footer() {
 
                         <div>
                             <div className='relative gap-[10px] bottom-[20px] flex flex-col mt-6 xl:order-none lg:order-none md:order-none sm:order-1 order-1'>
-                                <Image
-                                    src="/assits/images/logo1.png"
-                                    alt=""
-                                    width={150}
-                                    height={150}
-                                    className="xl:w-[90px] lg:w-[130px] md:w-[150px] sm:w-[50%] w-[50%]"
-                                />
+                              <Logo  className="xl:w-[90px] lg:w-[130px] md:w-[150px] sm:w-[50%] w-[50%]"/>
                                 <Span level="footer">company name Waqas Fahad <br /> Technical Services. Al Qouz Dubai</Span>
                             </div>
                             <div>
@@ -55,8 +50,6 @@ function Footer() {
                             <Heading level="4">Support</Heading>
                             <div className='grid gap-[10px] mt-[20px]'>
                                 <Link href='/contactus' className='footer-link'>Contact Us</Link>
-                                <Link href='' className='footer-link'>Ticket Support</Link>
-                                <Link href='' className='footer-link'>FAQ</Link>
                             </div>
                         </div>
 

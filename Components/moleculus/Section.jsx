@@ -84,7 +84,7 @@ function Section() {
           <hr />
 
           {/* Contact Us Button */}
-          <div className="hover-fill-from-bottom leading-[30px] py-[11px] flex justify-center items-center w-[38%] mt-[20px]">
+          <div className="hover-fill-from-bottom cursor-pointer leading-[30px] py-[11px] flex justify-center items-center w-[38%] mt-[20px]">
             <Link href="/contactus" className="flex items-center leading-[30px] text-[18px] font-[600]">
               Contact Us
             </Link>

@@ -19,8 +19,8 @@ function Howwork() {
                         <Span level='work2'>Communicate</Span>
                     </div>
                     <div className=' px-[2%] items-center flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col xl:border-l-2 xl:border-b-0 lg:border-l-2 lg:border-b-0 md:border-l-0 md:border-b-2 sm:border-l-0 sm:border-b-2 sm:border-l-0 border-b-2 border-l-0 '>
-                        <Span level='work'>02.</Span>
-                        <Span level='work2'>Plans & Calculations</Span>
+                        <Span level='work'>02.</Span> 
+                        <Span level='work2'>Plans & <br/> Calculations</Span>
                     </div>
                     <div className=' px-[2%] items-center flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col xl:border-l-2 xl:border-b-0 lg:border-l-2 lg:border-b-0 md:border-l-0 md:border-b-2 sm:border-l-0 sm:border-b-2 sm:border-l-0 border-b-2 border-l-0  '>
                         <Span level='work'>03.</Span>
