@@ -18,7 +18,7 @@ const PlumbingTemp = () => {
             <PlumbingOffer />
             <PlumberResponse />
             <Customers />
-            <div className='pb-[50px]'>
+            <div className='pb-[50px] pt-[40px]'>
             <PlumberContact />
             </div>
             <Footer />

@@ -38,11 +38,11 @@ function Footer() {
                                 <Link href='/acservice' className='footer-link'>AC Services</Link>
                                 <Link href='/tileservice' className='footer-link'>Tiles Fixing</Link>
                                 <Link href='/electricservice' className='footer-link'>Electrician Services</Link>
-                                <Link href='/plumbing' className='footer-link'>Handyman & Plumber</Link>
-                                <Link href='/bathroom' className='footer-link'>Bathroom Services</Link>
-                                <Link href='/PaintingPortion' className='footer-link'>Painting Services</Link>
-                                <Link href='/kitchen' className='footer-link'>Kitchen Service</Link>
-                                <Link href='/celling' className='footer-link'>Gypsum Ceiling</Link>
+                                <Link href='/plumbing' className='footer-link'>Plumbing Works</Link>
+                                <Link href='/bathroom' className='footer-link'>Bathroom Renovation</Link>
+                                <Link href='/PaintingPortion' className='footer-link'>Painting Works</Link>
+                                <Link href='/kitchen' className='footer-link'>Kitchen Renovation</Link>
+                                <Link href='/celling' className='footer-link'>Celling</Link>
                             </div>
                         </div>
 

@@ -7,6 +7,7 @@ import Electricimages from '../moleculus/Electircimages'
 import Footer from './Footer'
 import Heading from '../atoms/Heading'
 import PlumberContact from './PlumberContact'
+import Container from '../atoms/Container'
 
 function Electricservice() {
   return (
@@ -16,9 +17,11 @@ function Electricservice() {
       <Electircban2 />
       <ElectircHeading />
       <Electricimages />
-      <div className='pt-[50px] pl-[50px]'>
+      <Container>
+      <div className='pt-[50px] '>
         <Heading level={'2'}>Contact Us</Heading>
       </div>
+      </Container>
       <div className='my-[70px]'>
         <PlumberContact />
       </div>

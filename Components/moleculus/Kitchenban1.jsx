@@ -13,7 +13,7 @@ function Kitchenban1() {
                         Get Reliable & Affordable Tile Fix Dubai Services From Us!
                     </h1>
                     <p className='xl:text-lg lg:text-lg md:text-lg sm:text-md text-md font-400 leading-[35px] text-white'>
-                        In Dubai, Hajardubai.ae provides professional and affordable tile installation and repair services.
+                        In Dubai, yalladothis.ae provides professional and affordable tile installation and repair services.
                         Our team of experienced and qualified tile fixers gets the job done quickly and efficiently.
                     </p>
                     <p className="xl:text-lg lg:text-lg md:text-lg sm:text-md text-md font-400 leading-[35px] text-white">

@@ -13,7 +13,7 @@ function Tile1stban() {
             Get Reliable & Affordable Tile Fix Dubai Services From Us!
           </h1>
           <p className="xl:text-lg lg:text-lg md:text-lg sm:text-md text-md leading-relaxed">
-            In Dubai, Hajardubai.ae provides professional and affordable tile installation and repair services. We have a team of experienced and qualified tile fixers who can get the job done quickly and efficiently. We also use high-quality materials and equipment to ensure that your tiles are installed or repaired properly.
+            In Dubai, yalladothis.ae provides professional and affordable tile installation and repair services. We have a team of experienced and qualified tile fixers who can get the job done quickly and efficiently. We also use high-quality materials and equipment to ensure that your tiles are installed or repaired properly.
           </p>
           <p className="xl:text-lg lg:text-lg md:text-lg sm:text-md text-md leading-relaxed">
             If you need tile installation or repair services in Dubai, then please contact us today. We would be happy to discuss your requirements and provide you with a free quote.

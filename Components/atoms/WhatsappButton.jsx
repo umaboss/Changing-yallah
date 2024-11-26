@@ -1,16 +1,17 @@
 // src/Components/atoms/WhatsappButton.jsx
+import Link from "next/link";
 import React from "react";
 import { IoLogoWhatsapp } from "react-icons/io";
 const WhatsappButton = () => {
   return (
-    <a
+    <Link
       href="https://wa.me/1234567890" // Apna WhatsApp number yahan add karein
       target="_blank"
       rel="noopener noreferrer"
       style={styles.button}
     >
         <IoLogoWhatsapp className="text-white text-[30px]"/>
-    </a>
+    </Link>
   );
 };
 

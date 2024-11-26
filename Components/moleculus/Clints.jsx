@@ -23,7 +23,7 @@ function Clints() {
             </div>
 
             <div className=' flex flex-col items-center jusitfy-center xl:border-b-0 lg:border-0 md:border-0 sm:border-b-2 sm:py-[10px] py-[20px] border-b-2'>
-              <Span level='clintbox'> 12</Span> 
+              <Span level='clintbox'> 13</Span> 
               <div className='text-center'>
                 <Span level='clint'>SATISFIED CLIENTS</Span>
               </div>

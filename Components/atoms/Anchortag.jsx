@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 
 const AnchorTag = ({ href='#', children, variant = '' , onclick , onMouseEnter ,onMouseLeave }) => {
@@ -41,7 +42,7 @@ const AnchorTag = ({ href='#', children, variant = '' , onclick , onMouseEnter ,
   }
 
   return (
-    <a className={anchorStyle} onMouseLeave={onMouseLeave} onMouseEnter={onMouseEnter} onClick={onclick} href={href}>{children}</a>
+    <Link className={anchorStyle} onMouseLeave={onMouseLeave} onMouseEnter={onMouseEnter} onClick={onclick} href={href}>{children}</Link>
   );
 };
 

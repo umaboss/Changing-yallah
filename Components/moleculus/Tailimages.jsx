@@ -11,7 +11,7 @@ function Tailimages() {
         <Tailimg src="/assits/Tiles Fixing/tilebanner.jpg"/>
         <Tailimg src="/assits/images/Tail5.webp"/>
         <Tailimg src="/assits/images/Tail7.webp"/>
-        <Tailimg src="/assits/images/Tail8.webp"/>
+        <Tailimg src="/assits/Tiles Fixing/tile1.jpg"/>
       </div>
     </Container>
   )

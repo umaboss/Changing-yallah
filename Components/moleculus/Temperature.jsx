@@ -20,7 +20,7 @@ function Temperature() {
   return (
     <div className="no-scrollbar relative bg-gray-100 w-full pb-[80px]">
         <Container>
-          <div className='text-center pt-[5%] grid gap-[20px]'>
+          <div className='text-center pt-[5%] grid '>
             <Paragraph variant='tempara'>WHAT WE OFFER</Paragraph>
             <Heading level="7" className="xl:text-[50px] xl:w-[50%] xl:ml-[25%] lg:text-[50px] lg:w-[50%] lg:ml-[25%] md:text-[40px] md:w-[50%] md:ml-[25%] sm:text-[30px] sm:w-[50%] sm:ml-[25%] text-[20px] w-[70%] pt-[2%] ml-[15%]">
               The temperature of cooling is in your hand

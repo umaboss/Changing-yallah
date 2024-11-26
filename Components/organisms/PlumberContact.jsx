@@ -15,7 +15,7 @@ function PlumberContact() {
             <div className=' '>
               <Heading level='3'>Need to connect with a specific office?</Heading>
               <div className=''>
-                <Paragraph variant='contact'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut expedita, officia quibusdam voluptatibus blanditiis laudantium. Asperiores id, aliquam est praesentium, vel molestias esse itaque quae error magni temporibus, soluta provident?</Paragraph>
+                <Paragraph variant='contact'>Have questions or need assistance? Feel free to reach out to us! Use the form below or the provided contact details to get in touch. Our team is here to help and will respond as quickly as possible. We look forward to connecting with you!</Paragraph>
               </div>
             </div>
           </div>

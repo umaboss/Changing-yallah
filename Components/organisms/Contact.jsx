@@ -5,7 +5,7 @@ import Paragraph from '../atoms/Paragraph';
 import Input from '../atoms/Input';
 import Label from '../atoms/Label';
 import Map from '../moleculus/Map';
-
+import Link from 'next/link';
 function Contact() {
   return (
     <div>
@@ -68,9 +68,11 @@ function Contact() {
                 <textarea className='w-full h-[100px] outline-none border border-[#cacaca] text-[15px] text-[#302e2e] p-[15px]' placeholder="Message" />
               </div>
 
-              <div className="pt-5">
-                <button type="submit" className="bg-[#3787c3]  capitalize  hover:bg-[white] hover:text-[#3787c3] border-[1px] border-[#3787c3] transition 0.5s ease-in  h-[40px] cursor-pointer font-medium text-[16px] text-center w-[100%] py-2 px-6 text-white">Send Message</button>
-              </div>
+              <Link href="#" className="hover-fill-from-bottom cursor-pointer bg-white leading-[30px] py-[11px] flex justify-center items-center xl:w-[30%] lg:w-[30%] md:w-[25%] sm:w-[30%] w-[60%]">
+            <Link href="#" className="flex items-center leading-[30px] text-[18px] font-[600]">
+             Send Message
+            </Link>
+          </Link>
             </form>
           </div>
 

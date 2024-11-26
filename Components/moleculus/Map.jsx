@@ -17,16 +17,17 @@ function Map() {
                         <iframe
                             className="h-[400px] w-full border-0"
                             frameBorder="0"
-                            src="https://www.google.com/maps/embed/v1/place?q=al+hafiz+mobile+shop,Garha+Near+Dhol+Sikandar,+Chiniot,+Punjab+35400,+Pakistan&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                            src="https://www.google.com/maps/embed/v1/place?q=Dubai+Mall,Dubai,UAE&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                             allowFullScreen
                         ></iframe>
                     </div>
+
                 </div>
                 <div className='w-full lg:w-1/2 pt-[5%] px-4 '>
                     <Heading level='2'>Have other questions?</Heading>
                     <div className='pt-3'>
                         <Paragraph variant='contact'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            Visit us at our convenient location! Whether you need assistance or want to connect with us in person, our doors are always open. Check the map below to find our exact address and directions. We look forward to welcoming you!
                         </Paragraph>
                     </div>
                     <div className='pt-[7%]'>
@@ -45,14 +46,14 @@ function Map() {
                                 <Link href='mailto:waqaswqspk@gmail.com' className='text-[14px] font-[400] text-black'>waqaswqspk@gmail.com</Link>
                             </div>
                         </div>
-                        
+
 
                         <div className='flex  mr-[12%] gap-[10px] pt-[30px]'>
-                           <Link href='tel:00971 50 8786126'> <IoCall className='text-[25px]' /></Link>
+                            <Link href='tel:00971 50 8786126'> <IoCall className='text-[25px]' /></Link>
                             {/* <Span level='contact'>00971 50 8786126</Span> */}
                             <Link href='tel:00971 50 8786126' className='text-[14px] font-[400] text-black'>
-                           
-                            00971 50 8786126
+
+                                00971 50 8786126
                             </Link>
                         </div>
 
